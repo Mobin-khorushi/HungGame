@@ -58,6 +58,9 @@
     <Compile Include="SecondLevel.xaml.cs">
       <DependentUpon>SecondLevel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ThirdLevel.xaml.cs">
+      <DependentUpon>ThirdLevel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\MainView.cs" />
     <Page Include="FirstLevel.xaml">
       <SubType>Designer</SubType>
@@ -79,6 +82,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="SecondLevel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ThirdLevel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

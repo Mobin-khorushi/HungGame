@@ -41,7 +41,9 @@ namespace HungGame
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            ThirdLevel mainWindow = new ThirdLevel();
+            this.Close();
+            mainWindow.Show();
         }
     }
 }
